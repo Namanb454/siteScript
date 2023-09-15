@@ -44,7 +44,7 @@ function About() {
         },
         {
             'heading': 'End-to-End Solutions:',
-            'desc': 'Our teaWe provide comprehensive solutions for startups and established enterprises, covering everything from digital presence to IT infrastructure, including consulting, development, implementation, and ongoing support.'
+            'desc': 'We provide comprehensive solutions for startups and established enterprises, covering everything from digital presence to IT infrastructure, including consulting, development, implementation, and ongoing support.'
         },
     ]
 
@@ -62,7 +62,7 @@ function About() {
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-[#1C314C] tracking-wider">Who We Are?
 
                         </h1>
-                        <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke bOur company specializes in designing, developing, and delivering reliable IT solutions that empower businesses to achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients and help them stay ahead of the competition.At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success.</p>
+                        <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition.At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
                         <div class="flex w-full justify-center">
                             <button class="mx-auto inline-flex text-white bg-[#1C314C] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#1C314C] text-sm font-semibold shadow-sm shadow-gray-500">Read More</button>
                         </div>
@@ -81,8 +81,8 @@ function About() {
                                     <div class="h-full bg-[#D9D9D94D] overflow-hidden">
                                         <img class=" object-cover mx-auto my-10 object-center" src={data.img} alt="blog" />
                                         <div class="px-6 text-center">
-                                            <h1 class="title-font text-xl font-semibold text-black mb-3">{data.heading}</h1>
-                                            <p class="leading-relaxed mb-3 text-[#1C314CB2]">{data.desc}</p>
+                                            <h1 class="title-font text-xl font-semibold text-black mb-3 tracking-widest">{data.heading}</h1>
+                                            <p class="leading-relaxed mb-3 text-sm text-justify text-[#1C314CB2] tracking-wide">{data.desc}</p>
                                             <div class="flex items-center flex-wrap ">
                                             </div>
                                         </div>
@@ -106,8 +106,8 @@ function About() {
                             return (
                                 <div class="flex flex-col mb-5 lg:items-start items-center">
                                     <div class="flex-grow">
-                                        <h2 class="text-black text-xl title-font font-semibold">{data.heading}</h2>
-                                        <p class="leading-relaxed text-[#1C314CB2] text-sm">{data.desc}</p>
+                                        <h2 class="text-black text-xl title-font font-semibold tracking-widest">{data.heading}</h2>
+                                        <p class="leading-relaxed text-[#1C314CB2] text-sm tracking-wide text-justify">{data.desc}</p>
                                     </div>
                                 </div>
                             )
