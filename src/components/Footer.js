@@ -136,15 +136,15 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href='mailto: info.sitescript@gmail.com' class="flex text-sm items-center">
+                                <a href='mailto: info.sitescript@gmail.com' class="flex text-gray-600 text-sm items-center">
                                     <HiMail /> info.sitescript@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: namanb454@gmail.com' class="flex text-sm items-center">
+                                <a href='mailto: namanb454@gmail.com' class="flex text-gray-600 text-sm items-center">
                                     <HiMail />namanb454@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: jainkshitij1530@gmail.com' class="flex text-sm items-center">
+                                <a href='mailto: jainkshitij1530@gmail.com' class="flex text-gray-600 text-sm items-center">
                                     <HiMail />jainkshitij1530@gmail.com</a>
                             </li>
                         </ul>
