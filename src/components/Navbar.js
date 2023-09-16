@@ -26,6 +26,7 @@ const Navbar = () => {
         { 'id': '4', 'nav': 'Our Focus', 'link': '#features' },
         // { 'id': '4', 'nav': 'Contact Us', 'link': '#contack' },
         { 'id': '5', 'nav': 'Demo', 'link': '#Demo' },
+        { 'id': '5', 'nav': 'Help', 'link': '#help' },
     ];
     const [navSize, setnavSize] = useState();
     const [navColor, setnavColor] = useState("transparent");
@@ -57,7 +58,6 @@ const Navbar = () => {
                                 <h2 className='text-4xl font-serif'>siteScript</h2>
                                 <h2 className='w-fit mx-auto my-1 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
-
                         </div>
                         <div className="hidden md:block ml-auto">
                             <div className="ml-10 flex items-baseline space-x-4">
@@ -75,12 +75,11 @@ const Navbar = () => {
                                     )
                                 })}
 
-                                <Link
-                                    to="/contact"
+                                <a href='#contact'
                                     className="text-white font-semibold bg-[#1C314C] hover:bg-white border-2 border-[#1C314C] transition-all hover:text-[#1C314C] px-5 py-[7px] rounded-lg text-base"
                                 >
                                     Contact Us
-                                </Link>
+                                </a>
 
                             </div>
                         </div>

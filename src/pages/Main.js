@@ -4,6 +4,10 @@ import Header from '../components/Header'
 import About from './About'
 import Services from './Services'
 import Feature from './Feature'
+import Contact from './Contact'
+// import { FaQ } from 'react-icons/fa6'
+import Accordion from './Accordion'
+import Footer from '../components/Footer'
 
 function Main() {
     return (
@@ -27,6 +31,18 @@ function Main() {
 
             <div id='features'>
                 <Feature />
+            </div>
+
+            <div id='contact'>
+                <Contact />
+            </div>
+
+            <div id='help'>
+                <Accordion />
+            </div>
+
+            <div id=''>
+                <Footer />
             </div>
         </div>
     )
