@@ -96,7 +96,7 @@ function About() {
 
 
 
-            <section class="text-gray-600 body-font py-24">
+            <section class="text-gray-600 body-font lg:py-24 pt-10">
 
                 <h1 className='py-10 lg:text-4xl text-2xl text-center text-black tracking-wider'>Why Choose <span className='text-[#1C314C] font-bold'>siteScript?</span></h1>
 
