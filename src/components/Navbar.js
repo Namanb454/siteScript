@@ -52,10 +52,10 @@ const Navbar = () => {
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className=" w-full flex items-center lg:my-3 lg:pt-0 pt-5">
-                        <div className="w-fit lg:mx-0 mx-5 flex items-center">
+                        <div className="w-fit lg:mx-0 flex items-center">
                             <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
-                                <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                                <h2 className='lg:text-4xl text-xl mx-1 font-serif'>siteScript</h2>
                                 <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
                         </div>
@@ -120,11 +120,11 @@ const Navbar = () => {
                                 id="mobile-Homeu"
                                 ref={menuRef}
                             >
-                                <div className="px-2 pt-4 pb-3 space-y-1 transition-all mx-5 sm:px-3" ref={menuRef}>
+                                <div className="pt-9 pb-3 space-y-1 transition-all mx-5 sm:px-3" ref={menuRef}>
                                     <div className="w-fit flex items-center">
                                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                                         <div className=''>
-                                            <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                                            <h2 className='lg:text-4xl mx-1 text-xl font-serif'>siteScript</h2>
                                             <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ const Navbar = () => {
 
                                             <a key={data.id}
                                                 href={data.link}
-                                                className="text-[#1C314C] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-sm"
+                                                className="text-[#1C314C] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-base"
                                             >
                                                 {data.nav}
                                             </a>

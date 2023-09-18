@@ -11,15 +11,16 @@ import Footer from '../components/Footer'
 
 function Main() {
     return (
+
         <div>
 
             <div>
                 <Navbar />
             </div>
 
-            <div className=''>
-                {/* <Header /> */}
-            </div>
+            {/* <div> */}
+            {/* <Header /> */}
+            {/* </div> */}
 
             <div id='about'>
                 <About />
