@@ -20,7 +20,7 @@ const Accordion = () => {
                     </div>
                 </div>
 
-                <div className="-mx-4 flex flex-wrap">
+                <div className="flex flex-wrap mx-10">
                     <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
                         <AccordionItem
                             header="How long we deliver your first blog post?"

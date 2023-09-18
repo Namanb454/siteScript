@@ -15,7 +15,7 @@ function Footer() {
                             <h2 className='w-fit mx-auto my-1 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                         </div>
                     </div>
-                    <div className="mt-4 lg:max-w-sm">
+                    {/* <div className="mt-4 lg:max-w-sm">
                         <p className="text-sm text-gray-800">
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                             accusantium doloremque laudantium, totam rem aperiam.
@@ -24,7 +24,7 @@ function Footer() {
                             Eaque ipsa quae ab illo inventore veritatis et quasi architecto
                             beatae vitae dicta sunt explicabo.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
                     <div>
@@ -155,21 +155,21 @@ function Footer() {
             </div>
             <div className="flex justify-between pt-5 pb-10 border-t sm:flex-row ">
                 <p className="text-sm text-gray-600">
-                    © Copyright 2020 Lorem Inc. All rights reserved.
+                    © Copyright 2023 siteScript. All rights reserved.
                 </p>
                 <div className="">
                     <div className="flex justify-start space-x-3">
                         <a href="https://www.facebook.com/_siteScript_/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1 ">
-                            <BsFacebook className='w-full h-full' />
+                            <BsFacebook className='w-full h-full text-[#1C314C]' />
                         </a>
                         <a href="https://www.instagram.com/_sitescript_/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
-                            <BsInstagram className='w-full h-full' />
+                            <BsInstagram className='w-full h-full text-[#1C314C]' />
                         </a>
                         <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
-                            <FaSquareXTwitter className='w-full h-full' />
+                            <FaSquareXTwitter className='w-full h-full text-[#1C314C]' />
                         </a>
                         <a href="https://www.linkedin.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
-                            <BsLinkedin className='w-full h-full' />
+                            <BsLinkedin className='w-full h-full text-[#1C314C]' />
                         </a>
                     </div>
                 </div>

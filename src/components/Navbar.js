@@ -51,12 +51,12 @@ const Navbar = () => {
         }}>
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
-                    <div className=" w-full flex items-center my-3">
-                        <div className="w-fit flex items-center">
-                            <img className="w-20" src="sitescriptlogo.jpg" alt="Logo" />
+                    <div className=" w-full flex items-center lg:my-3 lg:pt-0 pt-5">
+                        <div className="w-fit lg:mx-0 mx-5 flex items-center">
+                            <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
-                                <h2 className='text-4xl font-serif'>siteScript</h2>
-                                <h2 className='w-fit mx-auto my-1 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
+                                <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                                <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
                         </div>
                         <div className="hidden md:block ml-auto">
@@ -66,10 +66,9 @@ const Navbar = () => {
                                     return (
                                         <a key={data.id}
                                             href={data.link}
-                                            className="transition-all px-3 py-2 rounded-md text-base"
+                                            className="transition-all tracking-wide px-3 py-2 rounded-md text-base"
                                         >
                                             <span>{data.nav}</span>
-                                            {/* <span className="  w-full h-2 bg-[#ec634b]"></span> */}
                                         </a>
 
                                     )
@@ -92,9 +91,9 @@ const Navbar = () => {
                             className="HAMBURGER-ICON space-y-2"
                             onClick={() => setIsNavOpen((prev) => !prev)}
                         >
-                            <span className="block h-0.5 w-7 bg-[#6527BE] "></span>
-                            <span className="block h-0.5 w-7 bg-[#6527BE] "></span>
-                            <span className="block h-0.5 w-7 bg-[#6527BE] "></span>
+                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
+                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
+                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
                         </div>
 
                         <div className={isNavOpen ? "showMenuNav rounded-b-2xl" : "hideMenuNav"}>
@@ -103,7 +102,7 @@ const Navbar = () => {
                                 onClick={() => setIsNavOpen(false)}
                             >
                                 <svg
-                                    className="h-9 w-10 text-[#6527BE]"
+                                    className="h-9 w-10 text-[#1C314C]"
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     stroke="currentColor"
@@ -121,10 +120,13 @@ const Navbar = () => {
                                 id="mobile-Homeu"
                                 ref={menuRef}
                             >
-                                <div className="px-2 pt-4 pb-3 space-y-1 sm:px-3" ref={menuRef}>
-                                    <div className="flex-shrink-0">
-                                        {/* <img className="h-8 w-8" src="/logo.svg" alt="Logo" /> */}
-                                        <Link to='/' className='lg:text-2xl text-[#6527BE] text-xl font-bold '>siteScript</Link>
+                                <div className="px-2 pt-4 pb-3 space-y-1 transition-all mx-5 sm:px-3" ref={menuRef}>
+                                    <div className="w-fit flex items-center">
+                                        <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
+                                        <div className=''>
+                                            <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                                            <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
+                                        </div>
                                     </div>
 
                                     {navbar.map(data => {
@@ -132,7 +134,7 @@ const Navbar = () => {
 
                                             <a key={data.id}
                                                 href={data.link}
-                                                className="text-[#6527BE] font-bold hover:text-[#ec634b] transition-all block px-3 py-2 rounded-md text-base"
+                                                className="text-[#1C314C] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-sm"
                                             >
                                                 {data.nav}
                                             </a>
@@ -140,9 +142,9 @@ const Navbar = () => {
                                     })}
                                     <Link
                                         to="/contact"
-                                        className="w-fit mx-auto text-white font-semibold bg-[#6527BE] hover:bg-white border-2 border-[#9681EB] transition-all hover:text-[#6527BE] block px-5 py-[5px] rounded-md text-base"
+                                        className="w-fit text-white font-semibold bg-[#1C314C] hover:bg-white border-2 border-[#1C314C] transition-all hover:text-[#1C314C] block px-5 py-[5px] rounded-md text-sm"
                                     >
-                                        Get In Touch
+                                        Contact Us
                                     </Link>
                                 </div>
                             </div>
