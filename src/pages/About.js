@@ -52,14 +52,14 @@ function About() {
     return (
         <div>
             <section class="text-gray-600 body-font">
-                <div class="container mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+                <div class="container mx-auto flex lg:px-20 px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                         <img class="object-cover object-center " alt="hero" src="aboutus.png" />
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <h1 class="title-font sm:text-xl text-3xl mb-4 font-semibold text-[#1C314C] tracking-widest">About Us
+                        <h1 class="title-font sm:text-xl text-lg mb-4 font-semibold text-[#1C314C] tracking-widest">About Us
                         </h1>
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-[#1C314C] tracking-wider">Who We Are?
+                        <h1 class="title-font sm:text-4xl text-2xl mb-4 font-bold text-[#1C314C] tracking-wider">Who We Are?
 
                         </h1>
                         <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition.At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
@@ -98,7 +98,7 @@ function About() {
 
             <section class="text-gray-600 body-font py-24">
 
-                <h1 className='py-10 text-4xl text-center text-black tracking-wider'>Why Choose <span className='text-[#1C314C] font-bold'>siteScript?</span></h1>
+                <h1 className='py-10 lg:text-4xl text-2xl text-center text-black tracking-wider'>Why Choose <span className='text-[#1C314C] font-bold'>siteScript?</span></h1>
 
                 <div class="container px-5 mx-auto flex flex-wrap">
                     <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">

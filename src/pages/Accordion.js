@@ -10,7 +10,7 @@ const Accordion = () => {
                             {/* <span className="mb-2 block text-lg font-semibold text-primary">
                                 FAQ
                             </span> */}
-                            <h2 className="mb-4 text-3xl font-semibold text-dark sm:text-4xl md:text-[40px] text-[#1C314C] tracking-wider">
+                            <h2 className="mb-4 lg:text-3xl text-xl font-semibold text-dark sm:text-4xl md:text-[40px] text-[#1C314C] tracking-wider">
                                 FAQ! Need Help?
                             </h2>
                             <p className="text-base font-semibold text-[#6F94C4EB] tracking-widest">
@@ -20,7 +20,7 @@ const Accordion = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-wrap mx-10">
+                <div className="flex flex-wrap lg:mx-10">
                     <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
                         <AccordionItem
                             header="How long we deliver your first blog post?"
@@ -118,7 +118,7 @@ const AccordionItem = ({ header, text }) => {
                 </div>
 
                 <div className="w-full">
-                    <h4 className="text-lg font-semibold text-black">{header}</h4>
+                    <h4 className="text-base font-semibold text-[#1C314C]">{header}</h4>
                 </div>
             </button>
 
@@ -126,7 +126,7 @@ const AccordionItem = ({ header, text }) => {
                 className={`pl-[62px] duration-200 ease-in-out ${active ? "block" : "hidden"
                     }`}
             >
-                <p className="py-3 text-base leading-relaxed text-body-color">{text}</p>
+                <p className="py-3 text-sm leading-relaxed text-body-color">{text}</p>
             </div>
         </div>
     );

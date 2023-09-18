@@ -39,8 +39,8 @@ function Services() {
         <div>
             <section class="py-24 text-white bg-[#1C314C] body-font">
                 <div className='pb-10'>
-                    <h1 className='pb-5 text-4xl text-center text-white tracking-wider'>What We Do <span className='text-white font-bold'>As Experts</span></h1>
-                    <p className='text-center text-xl text-[#FFFFFFB2] tracking-widest'>Explore our comprehensive range of services, neatly categorized into 9 key areas:</p>
+                    <h1 className='pb-5 lg:text-4xl text-2xl text-center text-white tracking-wider'>What We Do <span className='text-white font-bold'>As Experts</span></h1>
+                    <p className='text-center lg:text-xl text-sm text-[#FFFFFFB2] tracking-widest'>Explore our comprehensive range of services, neatly categorized into 9 key areas:</p>
                 </div>
                 <div class="container px-5 mx-auto">
                     <div class="flex flex-wrap -m-4">

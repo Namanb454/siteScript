@@ -52,9 +52,9 @@ const GridComponent = () => {
 
     return (
         <div>
-            <h1 className='lg:text-2xl text-xl text-[#1C314C] tracking-wider' style={Style1}>AWESOME FEATURES</h1>
+            <h1 className='lg:text-2xl text-lg text-[#1C314C] tracking-wider' style={Style1}>AWESOME FEATURES</h1>
             <h2 className='lg:text-3xl text-xl font-extrabold text-black tracking-widest' style={Style2}>
-            Enjoy Our Exclusive Features And a Wide Range of Websites.
+                Enjoy Our Exclusive Features And a Wide Range of Websites.
             </h2>
             <div className='text-white'>
                 <section className="text-gray-600 body-font">

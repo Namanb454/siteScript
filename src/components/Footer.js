@@ -8,11 +8,11 @@ function Footer() {
         <div className="px-4 pt-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
                 <div className="md:max-w-md lg:col-span-2">
-                    <div className="w-fit flex items-center">
-                        <img className="w-20" src="sitescriptlogo.jpg" alt="Logo" />
+                    <div className="w-fit mx-auto flex items-center">
+                        <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                         <div className=''>
-                            <h2 className='text-4xl font-serif'>siteScript</h2>
-                            <h2 className='w-fit mx-auto my-1 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
+                            <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                            <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                         </div>
                     </div>
                     {/* <div className="mt-4 lg:max-w-sm">
@@ -137,15 +137,15 @@ function Footer() {
                             </li>
                             <li>
                                 <a href='mailto: info.sitescript@gmail.com' class="flex text-gray-600 text-sm items-center">
-                                    <HiMail /> info.sitescript@gmail.com</a>
+                                    info.sitescript@gmail.com</a>
                             </li>
                             <li>
                                 <a href='mailto: namanb454@gmail.com' class="flex text-gray-600 text-sm items-center">
-                                    <HiMail />namanb454@gmail.com</a>
+                                    namanb454@gmail.com</a>
                             </li>
                             <li>
                                 <a href='mailto: jainkshitij1530@gmail.com' class="flex text-gray-600 text-sm items-center">
-                                    <HiMail />jainkshitij1530@gmail.com</a>
+                                    jainkshitij1530@gmail.com</a>
                             </li>
                         </ul>
                     </div>
@@ -154,7 +154,7 @@ function Footer() {
                 </div>
             </div>
             <div className="flex justify-between pt-5 pb-10 border-t sm:flex-row ">
-                <p className="text-sm text-gray-600">
+                <p className="lg:text-sm text-xs text-gray-600">
                     © Copyright 2023 siteScript. All rights reserved.
                 </p>
                 <div className="">
