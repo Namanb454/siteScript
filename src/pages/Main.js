@@ -14,7 +14,7 @@ function Main() {
 
         <div>
 
-            <div>
+            <div className='sticky top-0 bg-white'>
                 <Navbar />
             </div>
 
