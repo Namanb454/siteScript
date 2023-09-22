@@ -120,7 +120,7 @@ const Navbar = () => {
                                 id="mobile-Homeu"
                                 ref={menuRef}
                             >
-                                <div className="pt-9 pb-3 space-y-1 transition-all mx-5 sm:px-3" ref={menuRef}>
+                                <div className="pt-10 pb-3 space-y-1 transition-all mx-5 sm:px-3" ref={menuRef}>
                                     <div className="w-fit flex items-center">
                                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                                         <div className=''>

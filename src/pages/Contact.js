@@ -1,9 +1,64 @@
-import React from 'react'
+import React, { useDebugValue, useState } from 'react'
 import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+// import { auth, provider } from "./firebase";
 
 
 function Contact() {
+    const [userData, setuserData] = useState({
+        firstName: "",
+        lastName: "",
+        phone: "",
+        email: "",
+        message: ""
+    });
+
+    let name, value;
+    const postUserData = (event) => {
+        name = event.target.name;
+        value = event.target.value;
+
+        setuserData({ ...userData, [name]: value })
+    }
+
+    // connect with Database 
+    const submitData = async (event) => {
+        event.preventDefault();
+        const { firstName, lastName, phone, email, message } = userData;
+
+        if (firstName && lastName && phone && email && message) {
+            const res = await fetch("https://sitescript15-default-rtdb.firebaseio.com/userDataRecords.json",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        firstName, lastName, phone, email, message
+                    }),
+                }
+            );
+
+            if (res) {
+                setuserData({
+                    firstName: "",
+                    lastName: "",
+                    phone: "",
+                    email: "",
+                    message: "",
+                })
+                alert("Data Stored");
+            }
+            else {
+                alert("Unfilled");
+            }
+        }
+        else {
+            alert("Unfilled");
+        }
+    };
+
+
     return (
         <div className='lg:py-24 py-60'>
             <div class="flex justify-center items-center w-screen mx-auto h-screen bg-cover py-24">
@@ -12,27 +67,27 @@ function Contact() {
                         <span>Your Questions Are Important To Us,</span>
                         <br />Don't Hesitate To<span className='font-bold'> Get In Touch. </span></h1>
 
-                    <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-10 lg:pr-40 mr-auto bg-cover rounded-xl shadow-2xl">
+                    <form method='POST' class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-10 lg:pr-40 mr-auto bg-cover rounded-xl shadow-2xl">
                         <div class="flex">
                             <h1 class="font-semibold text-3xl text-[#1C314C] tracking-wide font-serif">Let's Connect</h1>
                         </div>
                         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                             <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="text" placeholder="First Name*" />
+                                type="text" name='firstName' placeholder="First Name*" value={userData.firstName} onChange={postUserData} />
                             <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="text" placeholder="Last Name*" />
+                                type="text" name='lastName' placeholder="Last Name*" value={userData.lastName} onChange={postUserData} />
                             <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="email" placeholder="Email*" />
+                                type="email" name='email' placeholder="Email*" value={userData.email} onChange={postUserData} />
                             <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="number" placeholder="Phone*" />
+                                type="number" name='phone' placeholder="Phone*" value={userData.phone} onChange={postUserData} />
                         </div>
                         <div class="my-4">
-                            <textarea placeholder="Message*" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                            <textarea type='text' name='message' placeholder="Message*" value={userData.message} onChange={postUserData} class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                         </div>
                         <div class="my-2 w-full lg:w-1/4">
-                            <button class="mx-auto w-full text-white bg-[#1C314C] border-0 py-2 lg:px-5 px-4 focus:outline-none hover:bg-white hover:text-[#1C314C] lg:text-base text-sm font-semibold shadow-sm shadow-gray-500">Send Message</button>
+                            <button type='submit' onClick={submitData} class="mx-auto w-full text-white bg-[#1C314C] border-0 py-2 lg:px-5 px-4 focus:outline-none hover:bg-white hover:text-[#1C314C] lg:text-base text-sm font-semibold shadow-sm shadow-gray-500">Send Message</button>
                         </div>
-                    </div>
+                    </form>
 
                     <div
                         class="w-full lg:-mt-[40%] lg:w-2/6 px-8 py-12 ml-auto bg-[#1C314C] rounded-2xl"
