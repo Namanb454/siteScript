@@ -52,13 +52,13 @@ const Navbar = () => {
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className=" w-full flex items-center lg:my-3 lg:pt-0 pt-5">
-                        <div className="w-fit lg:mx-0 flex items-center">
-                            <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
+                        <a href='' className="w-fit lg:mx-0 flex items-center">
+                            <img className="lg:w-16 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
                                 <h2 className='lg:text-4xl text-xl mx-1 font-serif'>siteScript</h2>
                                 <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
-                        </div>
+                        </a>
                         <div className="hidden md:block ml-auto">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 {navbar.map(data => {
@@ -66,9 +66,11 @@ const Navbar = () => {
                                     return (
                                         <a key={data.id}
                                             href={data.link}
-                                            className="transition-all tracking-wide px-3 py-2 rounded-md text-base"
+                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base"
                                         >
                                             <span>{data.nav}</span>
+                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-[#1C314C] group-hover:w-1/2 group-hover:transition-all "></span>
+                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-[#1C314C] group-hover:w-1/2 group-hover:transition-all"></span>
                                         </a>
 
                                     )

@@ -8,7 +8,7 @@ function Footer() {
         <div className="px-4 pt-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
                 <div className="md:max-w-md lg:col-span-2">
-                    <div className="w-fit mx-auto flex items-center">
+                    <div className="w-fit flex items-center">
                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                         <div className=''>
                             <h2 className='lg:text-4xl font-serif'>siteScript</h2>
@@ -35,7 +35,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     About
                                 </a>
@@ -43,7 +43,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Meet the Team
                                 </a>
@@ -56,7 +56,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#services"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Web Development
                                 </a>
@@ -64,7 +64,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#services"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     App Development
                                 </a>
@@ -72,7 +72,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#services"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Software Tools
                                 </a>
@@ -80,7 +80,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#services"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Design
                                 </a>
@@ -88,7 +88,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#services"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Consulting
                                 </a>
@@ -101,7 +101,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Get In Touch
                                 </a>
@@ -109,7 +109,7 @@ function Footer() {
                             <li>
                                 <a
                                     href="#help"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     FAQs
                                 </a>
@@ -122,7 +122,7 @@ function Footer() {
                             <li>
                                 <a
                                     href='tel: +91 9599791185'
-                                    className="tracking-wide text-gray-600 flex text-sm items-center transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="tracking-wide text-gray-600 flex text-sm items-center transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     <BsFillTelephoneFill /> +91 9599791185
                                 </a>
@@ -130,21 +130,21 @@ function Footer() {
                             <li>
                                 <a
                                     href='tel: +91 8448908359'
-                                    className="tracking-wide text-gray-600 flex text-sm items-center transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="tracking-wide text-gray-600 flex text-sm items-center transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     <BsFillTelephoneFill />  +91 8448908359
                                 </a>
                             </li>
                             <li>
-                                <a href='mailto: info.sitescript@gmail.com' class="flex text-gray-600 text-sm items-center">
+                                <a href='mailto: info.sitescript@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     info.sitescript@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: namanb454@gmail.com' class="flex text-gray-600 text-sm items-center">
+                                <a href='mailto: namanb454@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     namanb454@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: jainkshitij1530@gmail.com' class="flex text-gray-600 text-sm items-center">
+                                <a href='mailto: jainkshitij1530@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     jainkshitij1530@gmail.com</a>
                             </li>
                         </ul>

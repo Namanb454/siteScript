@@ -8,13 +8,13 @@ import Contact from './Contact'
 // import { FaQ } from 'react-icons/fa6'
 import Accordion from './Accordion'
 import Footer from '../components/Footer'
-
+// import { ToastContainer, toast } from 'react-toastify';
 function Main() {
     return (
 
         <div>
 
-            <div className='sticky top-0 bg-white'>
+            <div className=' bg-white'>
                 <Navbar />
             </div>
 

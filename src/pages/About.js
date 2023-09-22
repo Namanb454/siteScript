@@ -64,7 +64,7 @@ function About() {
                         </h1>
                         <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition.At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
                         <div class="flex w-full justify-center">
-                            <button class="mx-auto inline-flex text-white bg-[#1C314C] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#1C314C] text-sm font-semibold shadow-sm shadow-gray-500">Read More</button>
+                            <button class="mx-auto inline-flex text-white bg-[#1C314C] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#1C314C] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ function About() {
 
 
 
-            <section class="text-gray-600 body-font lg:py-24 pt-10">
+            <section class=" text-gray-600 body-font lg:py-24 pt-10">
 
                 <h1 className='py-10 lg:text-4xl text-2xl text-center text-black tracking-wider'>Why Choose <span className='text-[#1C314C] font-bold'>siteScript?</span></h1>
 
@@ -114,7 +114,7 @@ function About() {
                         })}
 
                     </div>
-                    <div class="lg:w-1/2 my-20 w-full mb-10 lg:mb-0  overflow-hidden">
+                    <div class="lg:w-1/2 my-20 w-full mb-10 lg:mb-0 overflow-hidden">
                         <div className='relative'>
                             <img className='absolute left-36' src='box1.png' alt='box' />
                             <img alt="feature" class="absolute object-cover z-10 w-[50%] object-center mx-auto top-5 left-20" src="aboutus5.png" />

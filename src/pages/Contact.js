@@ -1,8 +1,8 @@
-import React, { useDebugValue, useState } from 'react'
+import React, { useState } from 'react'
 import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { FaSquareXTwitter } from 'react-icons/fa6';
-// import { auth, provider } from "./firebase";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
     const [userData, setuserData] = useState({
@@ -47,19 +47,52 @@ function Contact() {
                     email: "",
                     message: "",
                 })
-                alert("Data Stored");
+                // alert("Data Stored");
+                // toast("Wow so easy !");
+                toast.success('Done! Our team will contact you soon.', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
+                // toast.success("Our team will contact you soon");
+
             }
             else {
-                alert("Unfilled");
+                toast.error('Invalid Credentials', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
             }
         }
         else {
-            alert("Unfilled");
+            // alert("Unfilled");
+            toast.error('Invalid Credentials', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
         }
     };
 
 
     return (
+
         <div className='lg:py-24 py-60'>
             <div class="flex justify-center items-center w-screen mx-auto h-screen bg-cover py-24">
                 <div class="container mx-auto my-4 lg:px-20">
@@ -72,20 +105,20 @@ function Contact() {
                             <h1 class="font-semibold text-3xl text-[#1C314C] tracking-wide font-serif">Let's Connect</h1>
                         </div>
                         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
-                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border shadow-sm border-slate-300 placeholder-slate-400 focus:border-white focus:ring-[#1C314C] focus:bg-white block sm:text-sm focus:ring-1"
                                 type="text" name='firstName' placeholder="First Name*" value={userData.firstName} onChange={postUserData} />
-                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border shadow-sm border-slate-300 placeholder-slate-400 focus:border-white focus:ring-[#1C314C] focus:bg-white block sm:text-sm focus:ring-1"
                                 type="text" name='lastName' placeholder="Last Name*" value={userData.lastName} onChange={postUserData} />
-                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border shadow-sm border-slate-300 placeholder-slate-400 focus:border-white focus:ring-[#1C314C] focus:bg-white block sm:text-sm focus:ring-1"
                                 type="email" name='email' placeholder="Email*" value={userData.email} onChange={postUserData} />
-                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border shadow-sm border-slate-300 placeholder-slate-400 focus:border-white focus:ring-[#1C314C] focus:bg-white block sm:text-sm focus:ring-1"
                                 type="number" name='phone' placeholder="Phone*" value={userData.phone} onChange={postUserData} />
                         </div>
                         <div class="my-4">
-                            <textarea type='text' name='message' placeholder="Message*" value={userData.message} onChange={postUserData} class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                            <textarea type='text' name='message' placeholder="Message*" value={userData.message} onChange={postUserData} class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border shadow-sm border-slate-300 placeholder-slate-400 focus:border-[white] focus:ring-[#1C314C] focus:bg-white block sm:text-sm focus:ring-1"></textarea>
                         </div>
                         <div class="my-2 w-full lg:w-1/4">
-                            <button type='submit' onClick={submitData} class="mx-auto w-full text-white bg-[#1C314C] border-0 py-2 lg:px-5 px-4 focus:outline-none hover:bg-white hover:text-[#1C314C] lg:text-base text-sm font-semibold shadow-sm shadow-gray-500">Send Message</button>
+                            <button type='submit' onClick={submitData} class="mx-auto w-full text-white bg-[#1C314C] border-0 py-2 lg:px-5 px-4 focus:outline-none hover:bg-white hover:text-[#1C314C] lg:text-base text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Send Message</button>
                         </div>
                     </form>
 
@@ -135,6 +168,19 @@ function Contact() {
                     </a>
                 </div>
             </div> */}
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+
         </div>
     )
 }
