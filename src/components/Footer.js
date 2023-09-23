@@ -168,7 +168,7 @@ function Footer() {
                         <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <FaSquareXTwitter className='w-full h-full text-[#1C314C]' />
                         </a>
-                        <a href="https://www.linkedin.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
+                        <a href="https://www.linkedin.com/company/sitescript/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <BsLinkedin className='w-full h-full text-[#1C314C]' />
                         </a>
                     </div>
