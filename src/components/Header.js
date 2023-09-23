@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function Header() {
   return (
-    <div className='lg:flex w-full lg:h-[100vh] lg:py-20 py-[20%] lg:my-0 bg-cover'
+    <div className='lg:flex w-full lg:h-[100vh] lg:py-20 py-[30%] lg:my-0 bg-cover'
       style={{
         backgroundImage: `url(header.jpg)`,
       }}>
