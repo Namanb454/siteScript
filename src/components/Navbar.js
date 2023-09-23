@@ -142,12 +142,12 @@ const Navbar = () => {
                                             </a>
                                         )
                                     })}
-                                    <Link
-                                        to="/contact"
+                                    <a
+                                        href="#contact"
                                         className="w-fit text-white font-semibold bg-[#1C314C] hover:bg-white border-2 border-[#1C314C] transition-all hover:text-[#1C314C] block px-5 py-[5px] rounded-md text-sm"
                                     >
                                         Contact Us
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
