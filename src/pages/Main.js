@@ -18,9 +18,9 @@ function Main() {
                 <Navbar />
             </div>
 
-            {/* <div> */}
-            {/* <Header /> */}
-            {/* </div> */}
+            <div>
+                <Header />
+            </div>
 
             <div id='about'>
                 <About />

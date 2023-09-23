@@ -23,31 +23,48 @@ const Accordion = () => {
                 <div className="flex flex-wrap lg:mx-10">
                     <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header="How can I request a quote or estimate for your services?"
+                            text="You can request a quote or estimate by filling out our online contact form, sending us an email, or giving us a call. One of our representatives will get in touch with you promptly."
                         />
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header=" Can you help with IT issues remotely?"
+                            text="Yes, we offer remote IT support services. Our team can diagnose and resolve many IT issues remotely, providing a quick and cost-effective solution."
                         />
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header="What is the typical response time for IT support requests?"
+                            text="Our response time varies depending on the severity of the issue. Critical issues are addressed immediately, while non-critical issues are usually addressed within [specified timeframe]."
+                        />
+                        <AccordionItem
+                            header="Can you assist with data migration to the cloud?"
+                            text="Absolutely. We have extensive experience in migrating data and applications to the cloud, ensuring a seamless transition while minimizing downtime."
+                        />
+                        <AccordionItem
+                            header="What are your payment options?"
+                            text="We accept various payment methods, including credit cards, checks, and bank transfers. Our billing department can provide you with detailed payment information."
                         />
                     </div>
                     <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header="What industries does your IT solutions company serve?"
+                            text="We work with clients across various industries, including healthcare, finance, education, manufacturing, and more. Our solutions are tailored to meet the specific needs of each industry."
                         />
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header=" How do you ensure the security of my data and IT systems?"
+                            text="We employ industry-best practices and advanced security measures to protect your data and IT systems. Our cybersecurity experts continuously monitor and update your systems to safeguard against threats."
                         />
                         <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
+                            header="Do you provide training for our employees on new IT systems or software?"
+                            text="Yes, we offer training services to help your employees adapt to new IT systems and software. Our training programs are customized to meet your organization's needs."
                         />
+                        <AccordionItem
+                            header="How can I get in touch with your support team for urgent issues outside of regular business hours?"
+                            text="We offer 24/7 emergency support. You can reach our support team at [emergency contact number] at any time."
+                        />
+                        <AccordionItem
+                            header="How do I know which IT solutions are best for my business?"
+                            text="We offer a free consultation to assess your specific needs and recommend tailored IT solutions. Contact us to schedule a consultation with one of our experts."
+                        />
+                        {/*  */}
                     </div>
                 </div>
             </div>
