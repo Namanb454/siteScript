@@ -77,7 +77,7 @@ const Navbar = () => {
                                 })}
 
                                 <a href='#contact'
-                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#1C314C] transition-all hover:text-[#1C314C] px-5 py-[7px] rounded-lg text-base"
+                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#6F94C4EB] transition-all hover:text-[#6F94C4EB] px-5 py-[7px] rounded-lg text-base"
                                 >
                                     Contact Us
                                 </a>
