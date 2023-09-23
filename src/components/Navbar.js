@@ -30,7 +30,7 @@ const Navbar = () => {
     ];
     const [navSize, setnavSize] = useState();
     const [navColor, setnavColor] = useState("transparent");
-    const [textcolor, settextcolor] = useState("#1C314C");
+    const [textcolor, settextcolor] = useState("white");
     const listenScrollEvent = () => {
         // window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
         // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("4rem");
@@ -43,7 +43,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className='bg-transparent' style={{
+        <nav className='absolute bg-transparent w-full' style={{
 
             height: navSize,
             transition: "all 0.5s",
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between">
                     <div className=" w-full flex items-center lg:my-3 lg:pt-0 pt-5">
                         <a href='' className="w-fit lg:mx-0 flex items-center">
-                            <img className="lg:w-16 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
+                            <img className="lg:w-16 w-[15%] rounded-full" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
                                 <h2 className='lg:text-4xl text-xl mx-1 font-serif'>siteScript</h2>
                                 <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
@@ -69,15 +69,15 @@ const Navbar = () => {
                                             className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base"
                                         >
                                             <span>{data.nav}</span>
-                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-[#1C314C] group-hover:w-1/2 group-hover:transition-all "></span>
-                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-[#1C314C] group-hover:w-1/2 group-hover:transition-all"></span>
+                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all "></span>
+                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all"></span>
                                         </a>
 
                                     )
                                 })}
 
                                 <a href='#contact'
-                                    className="text-white font-semibold bg-[#1C314C] hover:bg-white border-2 border-[#1C314C] transition-all hover:text-[#1C314C] px-5 py-[7px] rounded-lg text-base"
+                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#1C314C] transition-all hover:text-[#1C314C] px-5 py-[7px] rounded-lg text-base"
                                 >
                                     Contact Us
                                 </a>
