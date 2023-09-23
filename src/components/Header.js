@@ -27,7 +27,7 @@ function Header() {
           </div>
         </h2>
         <h3 className='w-fit text-white lg:text-base text-xl lg:mx-11 mx-1 lg:my-2 my-5 tracking-widest'>Breathing life into Ideas, Crafting and Creating with Excellence.</h3>
-        <h3 className='w-full text-white lg:text-base text-lg text-center tracking-widest font-bold'>Your gateway to seamless solutions.</h3>
+        <h3 className='w-full text-white lg:text-base text-base text-center tracking-widest font-bold'>Your gateway to seamless solutions.</h3>
       </div>
       <iframe className='lg:w-1/2 w-0 lg:h-[100vh] h-0' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
     </div>
