@@ -66,7 +66,7 @@ const Navbar = () => {
                                     return (
                                         <a key={data.id}
                                             href={data.link}
-                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base"
+                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest"
                                         >
                                             <span>{data.nav}</span>
                                             <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all "></span>
@@ -77,7 +77,7 @@ const Navbar = () => {
                                 })}
 
                                 <a href='#contact'
-                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#6F94C4EB] transition-all hover:text-[#6F94C4EB] px-5 py-[7px] rounded-lg text-base"
+                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#6F94C4EB] hover:tracking-wide transition-all hover:text-[#6F94C4EB] px-5 py-[7px] rounded-lg text-base"
                                 >
                                     Contact Us
                                 </a>
