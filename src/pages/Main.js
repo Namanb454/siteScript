@@ -18,7 +18,7 @@ function Main() {
                 <Navbar />
             </div>
 
-            <div>
+            <div className=''>
                 <Header />
             </div>
 

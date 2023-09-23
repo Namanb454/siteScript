@@ -21,7 +21,7 @@ const Accordion = () => {
                 </div>
 
                 <div className="flex flex-wrap lg:mx-10">
-                    <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
+                    <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2] transition-all">
                         <AccordionItem
                             header="How can I request a quote or estimate for your services?"
                             text="You can request a quote or estimate by filling out our online contact form, sending us an email, or giving us a call. One of our representatives will get in touch with you promptly."
@@ -43,7 +43,7 @@ const Accordion = () => {
                             text="We accept various payment methods, including credit cards, checks, and bank transfers. Our billing department can provide you with detailed payment information."
                         />
                     </div>
-                    <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2]">
+                    <div className="w-full px-4 lg:w-1/2 text-justify text-[#1C314CB2] transition-all">
                         <AccordionItem
                             header="What industries does your IT solutions company serve?"
                             text="We work with clients across various industries, including healthcare, finance, education, manufacturing, and more. Our solutions are tailored to meet the specific needs of each industry."
