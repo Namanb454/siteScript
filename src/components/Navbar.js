@@ -33,7 +33,7 @@ const Navbar = () => {
     const [textcolor, settextcolor] = useState("white");
     const listenScrollEvent = () => {
         // window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
-        // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("4rem");
+        // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
         // window.scrollY > 10 ? settextcolor("#6527BE") : settextcolor("white");
     };
     useEffect(() => {
@@ -43,7 +43,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className='absolute bg-transparent w-full' style={{
+        <nav className='absolute bg-transparent w-full lg:my-3 my-1' style={{
 
             height: navSize,
             transition: "all 0.5s",
@@ -93,9 +93,9 @@ const Navbar = () => {
                             className="HAMBURGER-ICON space-y-2"
                             onClick={() => setIsNavOpen((prev) => !prev)}
                         >
-                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
-                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
-                            <span className="block h-0.5 w-7 bg-[#1C314C] "></span>
+                            <span className="block h-0.5 w-7 bg-white "></span>
+                            <span className="block h-0.5 w-7 bg-white "></span>
+                            <span className="block h-0.5 w-7 bg-white "></span>
                         </div>
 
                         <div className={isNavOpen ? "showMenuNav rounded-b-2xl" : "hideMenuNav"}>
@@ -126,8 +126,8 @@ const Navbar = () => {
                                     <div className="w-fit flex items-center">
                                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                                         <div className=''>
-                                            <h2 className='lg:text-4xl mx-1 text-xl font-serif'>siteScript</h2>
-                                            <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
+                                            <h2 className='lg:text-4xl text-[#1C314C] mx-1 text-xl font-serif'>siteScript</h2>
+                                            <h2 className='w-fit mx-auto text-[5px] text-[#1C314C] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                                         </div>
                                     </div>
 
