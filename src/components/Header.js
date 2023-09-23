@@ -11,7 +11,7 @@ function Header() {
       <iframe className='lg:w-0 w-full lg:h-[100vh] h-[40vh] lg:ml-auto' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
 
       <div className='lg:w-1/2 w-full lg:my-40 mb-[20%] mx-auto text-white text-center'>
-        <h2 className='w-fit lg:mx-20 mx-auto flex lg:text-5xl text-2xl font-bold text-center md:mb-10 mb-14' id='signupHeading' >
+        <h2 className='w-fit lg:mx-20 mx-auto flex lg:text-5xl text-4xl font-bold text-center md:mb-10 mb-14' id='signupHeading' >
           WE &nbsp;
           <div className='font-bold text-[#6F94C4EB] tracking-widest' id='signupsubHeading'>
 
@@ -27,7 +27,7 @@ function Header() {
           </div>
         </h2>
         <h3 className='w-fit text-white lg:text-base text-xl lg:mx-11 mx-1 lg:my-2 my-5 tracking-widest'>Breathing life into Ideas, Crafting and Creating with Excellence.</h3>
-        <h3 className='w-full text-white lg:text-base text-sm text-center tracking-widest font-bold'>Your gateway to seamless solutions.</h3>
+        <h3 className='w-full text-white lg:text-base text-lg text-center tracking-widest font-bold'>Your gateway to seamless solutions.</h3>
       </div>
       <iframe className='lg:w-1/2 w-0 lg:h-[100vh] h-0' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
     </div>
