@@ -34,7 +34,7 @@ function Footer() {
                         <ul className="mt-2 space-y-2 text-sm">
                             <li>
                                 <a
-                                    href="/"
+                                    href="#about"
                                     className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     About
@@ -42,7 +42,7 @@ function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="/"
+                                    href="#about"
                                     className="text-gray-600 transition-colors hover:text-[#1C314C] hover:font-semibold duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Meet the Team
