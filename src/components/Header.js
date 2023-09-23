@@ -3,15 +3,15 @@ import Typewriter from 'typewriter-effect';
 
 function Header() {
   return (
-    <div className='lg:flex w-full lg:h-[100vh] py-20 lg:my-0 bg-cover'
+    <div className='lg:flex w-full lg:h-[100vh] lg:py-20 py-[20%] lg:my-0 bg-cover'
       style={{
         backgroundImage: `url(header.jpg)`,
       }}>
 
-      <iframe className='lg:w-0 w-full lg:h-[100vh] h-[50vh] lg:ml-auto' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
+      <iframe className='lg:w-0 w-full lg:h-[100vh] h-[40vh] lg:ml-auto' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
 
-      <div className='lg:w-1/2 w-full lg:my-40 my-[15%] mx-auto text-white text-center'>
-        <h2 className='w-fit lg:mx-20 mx-auto flex lg:text-5xl text-2xl font-bold text-center md:mb-10 ' id='signupHeading' >
+      <div className='lg:w-1/2 w-full lg:my-40 mb-[20%] mx-auto text-white text-center'>
+        <h2 className='w-fit lg:mx-20 mx-auto flex lg:text-5xl text-2xl font-bold text-center md:mb-10 mb-14' id='signupHeading' >
           WE &nbsp;
           <div className='font-bold text-[#6F94C4EB] tracking-widest' id='signupsubHeading'>
 
