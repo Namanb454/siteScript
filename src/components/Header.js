@@ -1,4 +1,6 @@
 import React from 'react'
+import { BsChevronDoubleDown } from 'react-icons/bs';
+
 import Typewriter from 'typewriter-effect';
 
 function Header() {
@@ -28,6 +30,9 @@ function Header() {
         </h2>
         <h3 className='w-fit text-white lg:text-base text-xl lg:mx-10 mx-1 lg:my-2 my-5 tracking-widest'>Breathing life into Ideas, Crafting and Creating with Excellence.</h3>
         <h3 className='w-full text-white lg:text-base text-base text-center tracking-widest font-bold'>Your gateway to seamless solutions.</h3>
+      </div>
+      <div className='mt-auto animate-bounce mx-auto w-fit'>
+        <a href='#about' className='w-fit text-center mx-auto text-white text-2xl'><BsChevronDoubleDown /></a>
       </div>
       <iframe className='lg:w-1/2 w-0 lg:h-[100vh] h-0' src="https://lottie.host/?file=ddf7c79b-d249-404a-8ffb-3936b90496fc/LT2rMZ8aiC.json"></iframe>
     </div>
