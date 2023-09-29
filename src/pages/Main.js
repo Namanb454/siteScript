@@ -8,17 +8,12 @@ import Contact from './Contact'
 // import { FaQ } from 'react-icons/fa6'
 import Accordion from './Accordion'
 import Footer from '../components/Footer'
-import {
-    SmoothScroll,
-    initTE,
-} from "tw-elements";
 
-initTE({ SmoothScroll });
 
 function Main() {
     return (
 
-        <div className='scroll-smooth hover:scroll-auto' data-te-smooth-scroll-init>
+        <div className='scroll-smooth hover:scroll-auto'>
 
             <div className=' bg-white scroll-smooth'>
                 <Navbar />
