@@ -1,8 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 // import { BsFillCartFill } from "react-icons/bs";
 // import { HiMiniBars4 } from "react-icons/hi";
+import {
+    SmoothScroll,
+    initTE,
+} from "tw-elements";
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+initTE({ SmoothScroll });
 const Navbar = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -43,7 +48,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className='absolute bg-transparent w-full lg:my-3 my-1' style={{
+        <nav className='absolute bg-transparent w-full lg:my-3 my-1 scroll-smooth hover:scroll-auto' style={{
 
             height: navSize,
             transition: "all 0.5s",
@@ -66,7 +71,8 @@ const Navbar = () => {
                                     return (
                                         <a key={data.id}
                                             href={data.link}
-                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest"
+                                            data-te-smooth-scroll-init
+                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest scroll-smooth hover:scroll-auto" 
                                         >
                                             <span>{data.nav}</span>
                                             <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all "></span>

@@ -8,25 +8,31 @@ import Contact from './Contact'
 // import { FaQ } from 'react-icons/fa6'
 import Accordion from './Accordion'
 import Footer from '../components/Footer'
-// import { ToastContainer, toast } from 'react-toastify';
+import {
+    SmoothScroll,
+    initTE,
+} from "tw-elements";
+
+initTE({ SmoothScroll });
+
 function Main() {
     return (
 
-        <div>
+        <div className='scroll-smooth hover:scroll-auto' data-te-smooth-scroll-init>
 
-            <div className=' bg-white'>
+            <div className=' bg-white scroll-smooth'>
                 <Navbar />
             </div>
 
-            <div className=''>
+            <div className='scroll-smooth'>
                 <Header />
             </div>
 
-            <div id='about'>
+            <div id='about' className='scroll-smooth'>
                 <About />
             </div>
 
-            <div id='services'>
+            <div id='services' className='scroll-smooth'>
                 <Services />
             </div>
 
