@@ -142,7 +142,7 @@ function Contact() {
                             </div>
 
                             <div class="flex my-4 w-2/3 lg:w-1/2">
-                                <a href="https://www.facebook.com/_siteScript_/" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1 ">
+                                <a href="https://www.facebook.com/profile.php?id=61553868025255" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1 ">
                                     <BsFacebook className='w-full h-full' />
                                 </a>
                                 <a href="https://www.instagram.com/_sitescript_/" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1">
@@ -151,7 +151,7 @@ function Contact() {
                                 <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1">
                                     <FaSquareXTwitter className='w-full h-full' />
                                 </a>
-                                <a href="https://www.linkedin.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1">
+                                <a href="https://www.linkedin.com/company/sitescriptitsolution/" target="_blank" rel="noreferrer" class="rounded-full h- w-[15%] inline-block mx-1 text-center pt-1">
                                     <BsLinkedin className='w-full h-full' />
                                 </a>
                             </div>

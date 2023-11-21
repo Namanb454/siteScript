@@ -8,13 +8,13 @@ function Footer() {
         <div className="px-4 pt-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
                 <div className="md:max-w-md lg:col-span-2">
-                    <div className="w-fit flex items-center">
+                    <a href='#' className="w-fit flex items-center">
                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                         <div className=''>
                             <h2 className='lg:text-4xl font-serif'>siteScript</h2>
                             <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                         </div>
-                    </div>
+                    </a>
                     {/* <div className="mt-4 lg:max-w-sm">
                         <p className="text-sm text-gray-800">
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -159,7 +159,7 @@ function Footer() {
                 </p>
                 <div className="">
                     <div className="flex justify-start space-x-3">
-                        <a href="https://www.facebook.com/_siteScript_/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1 ">
+                        <a href="https://www.facebook.com/profile.php?id=61553868025255" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1 ">
                             <BsFacebook className='w-full h-full text-[#1C314C]' />
                         </a>
                         <a href="https://www.instagram.com/_sitescript_/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
@@ -168,7 +168,7 @@ function Footer() {
                         <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <FaSquareXTwitter className='w-full h-full text-[#1C314C]' />
                         </a>
-                        <a href="https://www.linkedin.com/company/sitescript/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
+                        <a href="https://www.linkedin.com/company/sitescriptitsolution/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <BsLinkedin className='w-full h-full text-[#1C314C]' />
                         </a>
                     </div>
