@@ -10,11 +10,11 @@ const Accordion = () => {
                             {/* <span className="mb-2 block text-lg font-semibold text-primary">
                                 FAQ
                             </span> */}
-                            <h2 className="mb-4 lg:text-3xl text-xl font-semibold text-dark sm:text-4xl md:text-[40px] text-[#1C314C] tracking-wider">
+                            <h2 className="mb-4 lg:text-4xl text-xl font-semibold text-dark sm:text-4xl md:text-[40px] text-[#1C314C] tracking-wider">
                                 FAQ! Need Help?
                             </h2>
-                            <p className="text-base font-semibold text-[#6F94C4EB] tracking-widest">
-                                We Got Answers to All Your Questions
+                            <p className="lg:text-xl text-base font-semibold tracking-widest">
+                                We Got Answers to All Your <span className="text-[#b6984b] font-semibold">Questions</span>
                             </p>
                         </div>
                     </div>

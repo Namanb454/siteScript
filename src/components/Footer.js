@@ -11,7 +11,7 @@ function Footer() {
                     <a href='#' className="w-fit flex items-center">
                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                         <div className=''>
-                            <h2 className='lg:text-4xl font-serif'>siteScript</h2>
+                            <h2 className='lg:text-4xl font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
                             <h2 className='w-fit mx-auto text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                         </div>
                     </a>

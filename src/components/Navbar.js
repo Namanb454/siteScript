@@ -42,7 +42,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className='absolute bg-transparent w-full lg:my-3 my-1 scroll-smooth hover:scroll-auto' style={{
+        <nav className='absolute bg-transparent w-full lg:my-1 my-1 scroll-smooth hover:scroll-auto ' style={{
 
             height: navSize,
             transition: "all 0.5s",
@@ -54,7 +54,7 @@ const Navbar = () => {
                         <a href='/' className="w-fit lg:mx-0 flex items-center">
                             <img className="lg:w-16 w-[15%] rounded-full" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
-                                <h2 className='lg:text-4xl text-xl mx-2 font-serif'>siteScript</h2>
+                                <h2 className='lg:text-4xl text-xl mx-2 font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
                                 <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
                         </a>
@@ -65,18 +65,18 @@ const Navbar = () => {
                                     return (
                                         <a key={data.id}
                                             href={data.link}
-                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest scroll-smooth hover:scroll-auto"
+                                            className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest scroll-smooth hover:scroll-auto hover:text-[#b6984b]"
                                         >
                                             <span>{data.nav}</span>
-                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all "></span>
-                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-white group-hover:w-1/2 group-hover:transition-all"></span>
+                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all "></span>
+                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all"></span>
                                         </a>
 
                                     )
                                 })}
 
                                 <a href='#contact'
-                                    className="text-white font-semibold bg-transparent  border-2 border-white hover:border-[#6F94C4EB] hover:tracking-wide transition-all hover:text-[#6F94C4EB] px-5 py-[7px] rounded-lg text-base"
+                                    className="text-[#b6984b] font-semibold bg-transparent  border-2 border-[#b6984b] hover:text-white hover:tracking-wide transition-all hover:bg-[#b6984b] px-5 py-[7px] rounded-lg text-base"
                                 >
                                     Contact Us
                                 </a>
