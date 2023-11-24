@@ -100,7 +100,7 @@ const Navbar = () => {
                             <span className="block h-0.5 w-5 ml-auto bg-white "></span>
                         </div>
 
-                        <div className={isNavOpen ? "showMenuNav rounded-b-2xl" : "hideMenuNav"}>
+                        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                             <div
                                 className="absolute top-0  right-0 md:px-10 px-3 py-[3%]"
                                 onClick={() => setIsNavOpen(false)}
