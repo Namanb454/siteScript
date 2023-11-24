@@ -15,7 +15,7 @@ function Main() {
 
         <div className='scroll-smooth hover:scroll-auto'>
 
-            <div className=' bg-white scroll-smooth'>
+            <div className='  scroll-smooth fixed z-10 w-full'>
                 <Navbar />
             </div>
 

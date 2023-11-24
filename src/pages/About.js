@@ -115,7 +115,7 @@ function About() {
 
                     </div>
                     <div class="lg:w-1/2 my-20 w-full mb-10 lg:mb-0 overflow-hidden">
-                        <div className='relative'>
+                        <div className='relative z-0'>
                             <img className='absolute left-36' src='box1.png' alt='box' />
                             <img alt="feature" class="absolute object-cover z-10 w-[50%] object-center mx-auto top-5 left-20" src="aboutus5.png" />
                             <img alt="feature" class="absolute object-cover z-10 w-[50%] object-center mx-auto top-36 left-52" src="aboutus6.png" />

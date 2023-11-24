@@ -27,13 +27,15 @@ const Navbar = () => {
         { 'id': '5', 'nav': 'Demo', 'link': '#Demo' },
         { 'id': '5', 'nav': 'Help', 'link': '#help' },
     ];
-    const [navSize, setnavSize] = useState();
+    const [navSize, setnavSize] = useState("4rem");
     const [navColor, setnavColor] = useState("transparent");
     const [textcolor, settextcolor] = useState("white");
     const listenScrollEvent = () => {
-        // window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
+        window.backgroundColor = "red";
+        window.scrollY > 10 ? setnavColor("#1C314C") : setnavColor("transparent");
+        // window.scrollY < 0 ? setnavColor("black") : setnavColor("black");
         // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
-        // window.scrollY > 10 ? settextcolor("#6527BE") : settextcolor("white");
+        window.scrollY > 10 ? settextcolor("white") : settextcolor("white");
     };
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
@@ -42,19 +44,19 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className='absolute bg-transparent w-full lg:my-1 my-1 scroll-smooth hover:scroll-auto ' style={{
-
+        <nav style={{
+            backgroundColor: navColor,
             height: navSize,
             transition: "all 0.5s",
             color: textcolor,
         }}>
-            <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 ">
                 <div className="flex items-center justify-between">
-                    <div className=" w-full flex items-center lg:my-3 lg:pt-0 pt-5">
-                        <a href='/' className="w-fit lg:mx-0 flex items-center">
-                            <img className="lg:w-16 w-[15%] rounded-full" src="sitescriptlogo.jpg" alt="Logo" />
+                    <div className=" w-full flex items-center lg:my-2 my-2">
+                        <a href='#' className="w-fit lg:mx-0 flex items-center">
+                            <img className="lg:w-12 w-[15%] rounded-full" src="sitescriptlogo.jpg" alt="Logo" />
                             <div className=''>
-                                <h2 className='lg:text-4xl text-xl mx-2 font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
+                                <h2 className='lg:text-2xl text-xl mx-2 font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
                                 <h2 className='w-fit mx-auto lg:my-1 my-0 text-[5px] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                             </div>
                         </a>
@@ -68,8 +70,9 @@ const Navbar = () => {
                                             className="transition-all relative group tracking-wide px-3 py-2 rounded-md text-base hover:tracking-widest scroll-smooth hover:scroll-auto hover:text-[#b6984b]"
                                         >
                                             <span>{data.nav}</span>
-                                            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all "></span>
-                                            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all"></span>
+                                            <span className="absolute transition-all ease-in-out duration-1000 -bottom-1 left-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all "></span>
+                                            <span className="absolute transition-all ease-in-out duration-1000 -bottom-1 right-1/2 w-0 h-[2px] bg-[#b6984b] group-hover:w-1/2 group-hover:transition-all"></span>
+                                            <span className="absolute left-0 -bottom-1 w-full rounded-full h-[2px] transition-all ease-in-out duration-1000 -z-10  group-hover:transition-all"></span>
                                         </a>
 
                                     )
@@ -92,14 +95,14 @@ const Navbar = () => {
                             className="HAMBURGER-ICON space-y-2"
                             onClick={() => setIsNavOpen((prev) => !prev)}
                         >
-                            <span className="block h-0.5 w-7 bg-white "></span>
-                            <span className="block h-0.5 w-7 bg-white "></span>
-                            <span className="block h-0.5 w-7 bg-white "></span>
+                            <span className="block h-0.5 w-4 ml-auto bg-white "></span>
+                            <span className="block h-0.5 w-7 ml-auto bg-white "></span>
+                            <span className="block h-0.5 w-5 ml-auto bg-white "></span>
                         </div>
 
                         <div className={isNavOpen ? "showMenuNav rounded-b-2xl" : "hideMenuNav"}>
                             <div
-                                className="absolute top-0  right-0 md:px-10 px-3 py-[4%]"
+                                className="absolute top-0  right-0 md:px-10 px-3 py-[3%]"
                                 onClick={() => setIsNavOpen(false)}
                             >
                                 <svg
@@ -121,11 +124,11 @@ const Navbar = () => {
                                 id="mobile-Homeu"
                                 ref={menuRef}
                             >
-                                <div className="pt-10 pb-10 space-y-0.5 transition-all mx-5 sm:px-3" ref={menuRef}>
+                                <div className=" space-y-7 py-[2%] transition-all mx-5 sm:px-3" ref={menuRef}>
                                     <div className="w-fit flex items-center">
                                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                                         <div className=''>
-                                            <h2 className='lg:text-4xl text-[#1C314C] mx-1 text-xl font-serif'>siteScript</h2>
+                                            <h2 className='lg:text-4xl text-[#1C314C] mx-1 text-xl font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
                                             <h2 className='w-fit mx-auto text-[5px] text-[#1C314C] [word-spacing:1px]'>WE DESIGN. WE DEVELOP. WE DELIEVR.</h2>
                                         </div>
                                     </div>
@@ -135,7 +138,7 @@ const Navbar = () => {
 
                                             <a key={data.id}
                                                 href={data.link}
-                                                className="text-[#1C314C] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-base"
+                                                className="text-[#1C314C] hover:text-[#b6984b] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-base"
                                             >
                                                 {data.nav}
                                             </a>
@@ -143,7 +146,7 @@ const Navbar = () => {
                                     })}
                                     <a
                                         href="#contact"
-                                        className="w-fit text-white font-semibold bg-[#1C314C] hover:bg-white border-2 border-[#1C314C] transition-all hover:text-[#1C314C] block px-5 py-[5px] rounded-md text-sm"
+                                        className="w-fit text-[#b6984b] font-semibold hover:border-[#b6984b] border-2 border-[#b6984b] transition-all hover:text-white hover:bg-[#b6984b] block px-5 py-[5px] rounded-md text-sm"
                                     >
                                         Contact Us
                                     </a>
@@ -159,14 +162,14 @@ const Navbar = () => {
         display: block;
         position: absolute;
         width: 100%;
-        height: 40vh;
+        height: 100vh;
         top: 0;
         left: 0;
         background: white;
         z-index: 10;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        // justify-content: space-evenly;
         align-items: center;
       }
     `}</style>
