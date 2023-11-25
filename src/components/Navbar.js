@@ -22,9 +22,9 @@ const Navbar = () => {
         // { 'id': '1', 'nav': 'Intro', 'link': '#' },
         { 'id': '2', 'nav': 'Who We Are', 'link': '#about' },
         { 'id': '3', 'nav': 'What We Do', 'link': '#services' },
+        { 'id': '5', 'nav': 'Marketing Strategy', 'link': '#marketing' },
         { 'id': '4', 'nav': 'Our Focus', 'link': '#features' },
         // { 'id': '4', 'nav': 'Contact Us', 'link': '#contack' },
-        { 'id': '5', 'nav': 'Demo', 'link': '#Demo' },
         { 'id': '5', 'nav': 'Help', 'link': '#help' },
     ];
     const [navSize, setnavSize] = useState("4rem");

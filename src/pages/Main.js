@@ -8,6 +8,7 @@ import Contact from './Contact'
 // import { FaQ } from 'react-icons/fa6'
 import Accordion from './Accordion'
 import Footer from '../components/Footer'
+import Marketing from './Marketing'
 
 
 function Main() {
@@ -29,6 +30,10 @@ function Main() {
 
             <div id='services' className='scroll-smooth'>
                 <Services />
+            </div>
+
+            <div id='marketing' className='scroll-smooth'>
+                <Marketing />
             </div>
 
             <div id='features'>

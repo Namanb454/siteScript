@@ -27,24 +27,24 @@ function About() {
 
     const whychoose = [
         {
-            'heading': 'Expertise:',
-            'desc': 'Our team comprises skilled professionals with years of experience across various IT domains. We have the expertise to address your specific requirements.'
+            'heading': 'Expertise That Matters:',
+            'desc': 'Our team consists of experienced professionals who possess extensive knowledge in IT solutions as well as Social Media Marketing. With a focus on innovative technological solutions and the ability to create influential social media strategies, we offer a level of expertise that distinguishes us from others.'
         },
         {
             'heading': 'Client-Centric Approach:',
-            'desc': "We value understanding our clients' needs to create successful IT solutions. Through listening, learning, and collaboration, we ensure the solutions we offer meet your objectives."
+            'desc': "Our primary focus is on our clients, as they are the core of our operations. We take great pride in our client-centric strategy, which emphasizes transparent processes, open communication, and a collaborative partnership. Our ultimate goal is to prioritize your satisfaction and success."
         },
         {
-            'heading': 'Innovation:',
-            'desc': "We embrace the ever-changing technology landscape by staying current with trends and advancements, providing cutting-edge solutions for your business's competitive advantage."
+            'heading': 'Cutting-Edge Technology and Trends:',
+            'desc': "In the fast-evolving digital landscape, staying ahead is non-negotiable. Our commitment to innovation means that you benefit from the latest technologies and trends in both IT and social media marketing. Your business deserves nothing less than state-of-the-art solutions."
         },
         {
             'heading': 'Reliability:',
             'desc': 'We value the importance of technology in your operations. Therefore, we prioritize reliable and consistent services. Rest assured, our solutions work seamlessly every day.'
         },
         {
-            'heading': 'End-to-End Solutions:',
-            'desc': 'We provide comprehensive solutions for startups and established enterprises, covering everything from digital presence to IT infrastructure, including consulting, development, implementation, and ongoing support.'
+            'heading': 'Competitive Pricing and Value:',
+            'desc': 'We offer exceptional quality without breaking the bank. Our competitive pricing provides maximum value for your investment. Your success is our success, and we strive to offer solutions that positively impact your bottom line.'
         },
     ]
 
@@ -62,7 +62,7 @@ function About() {
                         <h1 class="title-font sm:text-4xl text-2xl mb-4 font-bold text-[#1C314C] tracking-wider">Who We Are?
 
                         </h1>
-                        <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition.At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
+                        <p class="mb-8 leading-relaxed text-[#1C314CB2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT & Digital Solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition. At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
                         <div class="flex w-full justify-center">
                             <button class="mx-auto inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Read More</button>
                         </div>
@@ -96,9 +96,9 @@ function About() {
 
 
 
-            <section class=" text-gray-600 body-font lg:py-24 pt-10">
+            <section class=" body-font lg:py-24 pt-10">
 
-                <h1 className='py-10 lg:text-4xl text-2xl text-center text-black tracking-wider'>Why Choose <span className='text-[#b6984b] font-bold'>siteScript?</span></h1>
+                <h1 className='py-10 lg:text-4xl text-2xl text-center font-semibold text-[#1C314C] tracking-wider'>Why Choose <span className='text-[#b6984b] font-bold'>siteScript</span>?</h1>
 
                 <div class="container px-5 mx-auto flex flex-wrap">
                     <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">

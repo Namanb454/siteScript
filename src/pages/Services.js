@@ -6,16 +6,16 @@ function Services() {
             'img': 'service1.png', 'heading': 'Website & App Development', 'desc': 'Our websites and app are completely responsive, optimized for sales, and built with cutting-edge technology.',
         },
         {
-            'img': 'service6.png', 'heading': 'Search Engine Optimization', 'desc': 'Drive your digital success with our SEO mastery. We help you climb the search rankings, so your business shines in the online spotlight.',
+            'img': 'service4.png', 'heading': 'Software Tools', 'desc': 'We specialize in the development of top-quality software tools tailored to enhance the efficiency and productivity of your business operations.',
         },
         {
-            'img': 'service4.png', 'heading': 'Software Tools', 'desc': 'We specialize in the development of top-quality software tools tailored to enhance the efficiency and productivity of your business operations.',
+            'img': 'service2.png', 'heading': 'Digital Marketing', 'desc': 'Our mobile development services deliver top-notch iOS and Android apps that optimize your business operations and boost productivity, ensuring superior performance.',
         },
         {
             'img': 'service7.png', 'heading': 'Video, Design & Editing', 'desc': 'Our designs are aesthetically pleasing and strategically crafted to minimize bounce and churn rates, earning high praise from end users for their effectiveness.',
         },
         {
-            'img': 'service2.png', 'heading': 'Digital Marketing', 'desc': 'Our mobile development services deliver top-notch iOS and Android apps that optimize your business operations and boost productivity, ensuring superior performance.',
+            'img': 'service6.png', 'heading': 'Search Engine Optimization', 'desc': 'Drive your digital success with our SEO mastery. We help you climb the search rankings, so your business shines in the online spotlight.',
         },
         // {
         //     'img': 'service3.png', 'heading': 'Block Chain Development', 'desc': 'Unlock the power of blockchain technology with our expert solutions, paving the way for secure, transparent, and efficient business operations.',
