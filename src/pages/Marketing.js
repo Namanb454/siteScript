@@ -55,7 +55,7 @@ function Marketing() {
                                 </li>
                             </ul>
                             <div class="flex w-fit my-8">
-                                <button class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Get Your Website</button>
+                                <a href='#contact' class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Get Your Website</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ function Marketing() {
                             With paid advertising, businesses can easily track and measure the success of their campaigns through various analytics tools, allowing them to make data-driven decisions and optimize their marketing strategies.
                         </p>
                         <div class="flex w-fit mt-8">
-                            <button class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Grow Now</button>
+                            <a href='#contact' class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Grow Now</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ function Marketing() {
                                 </li>
                             </ul>
                             <div class="flex w-fit my-8">
-                                <button class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Get Your Video</button>
+                                <a href='#contact' class="inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Get Your Video</a>
                             </div>
                         </div>
                     </div>
