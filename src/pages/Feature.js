@@ -54,8 +54,8 @@ const GridComponent = () => {
     // GSAP 
     useEffect(() => {
         const tl = gsap.timeline();
-        tl.from(".title", { x: 200, duration: 2 });
-        tl.from(".title2", { x: -200, duration: 2 });
+        tl.from(".title", { x: 200, duration: 1 });
+        tl.from(".title2", { x: -200, duration: 1 });
 
     })
 
