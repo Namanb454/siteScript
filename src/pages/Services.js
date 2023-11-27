@@ -38,30 +38,30 @@ function Services() {
     ]
     return (
         <div className=''>
-            <section class="py-24 text-white bg-[#1C314C] body-font">
+            <section className="py-24 text-white bg-[#0D2232] body-font">
                 <div className='pb-10'>
                     <h1 className='pb-5 lg:text-4xl text-2xl text-center text-white tracking-wider'>What We Do <span className='text-[#b6984b] font-bold'>As Experts</span></h1>
                     <p className='text-center lg:text-xl text-sm text-[#FFFFFFB2] tracking-widest'>Explore our comprehensive range of services, neatly categorized into 5 key areas:</p>
                 </div>
-                <div class="container px-5 mx-auto">
-                    <div class="flex flex-wrap -m-4 py-10">
+                <div className="container px-5 mx-auto">
+                    <div className="flex flex-wrap -m-4 py-10">
                         {service.map(data => {
                             return (
-                                <div class="xl:w-1/5 lg:w-1/2 md:w-full w-[80%] mx-auto py-0 border-l-2 border-[#b6984b] border-opacity-60">
-                                    <div class="lg:h-24 h-20 px-5 py-5 rounded-xl text-center relative"
+                                <div className="xl:w-1/5 lg:w-1/2 md:w-full w-[80%] mx-auto py-0 border-l-2 border-[#b6984b] border-opacity-60">
+                                    <div className="lg:h-24 h-20 px-5 py-5 rounded-xl text-center relative"
                                         style={{
                                             backgroundImage: `url(${data.img})`,
                                             margin: "0px 10px",
                                         }}>
                                         <div className='text-left'>
-                                            <h1 class="title-font sm:text-xl text-xl font-semibold tracking-wider text-white mb-3">{data.heading}</h1>
+                                            <h1 className="title-font sm:text-xl text-xl font-semibold tracking-wider text-white mb-3">{data.heading}</h1>
                                         </div>
                                     </div>
                                     <div className='lg:h-44 h-36 bg-cover px-5 py-5 rounded-xl text-center relative'>
-                                        <p class="text-gray-200 leading-relaxed text-sm text-justify tracking-normal">{data.desc}</p>
+                                        <p className="text-gray-200 leading-relaxed text-sm text-justify tracking-normal">{data.desc}</p>
                                     </div>
-                                    <div class="flex w-full justify-start lg:my-0 my-5">
-                                        <a href='#contact' class="mx-5 rounded-full inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Grow Now</a>
+                                    <div className="flex w-full justify-start lg:my-0 my-5">
+                                        <a href='#contact' className="mx-5 rounded-full inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Grow Now</a>
                                     </div>
                                 </div>
 

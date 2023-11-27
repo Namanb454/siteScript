@@ -136,15 +136,15 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href='mailto: info.sitescript@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
+                                <a href='mailto: info.sitescript@gmail.com' className="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     info.sitescript@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: namanb454@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
+                                <a href='mailto: namanb454@gmail.com' className="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     namanb454@gmail.com</a>
                             </li>
                             <li>
-                                <a href='mailto: jainkshitij1530@gmail.com' class="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
+                                <a href='mailto: jainkshitij1530@gmail.com' className="flex text-gray-600 text-sm items-center hover:text-[#1C314C] hover:font-semibold ">
                                     jainkshitij1530@gmail.com</a>
                             </li>
                         </ul>
@@ -159,16 +159,16 @@ function Footer() {
                 </p>
                 <div className="">
                     <div className="flex justify-start space-x-3">
-                        <a href="https://www.facebook.com/profile.php?id=61553868025255" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1 ">
+                        <a href="https://www.facebook.com/profile.php?id=61553868025255" target="_blank" rel="noreferrer" className="rounded-full w-6 inline-block mx-1 text-center pt-1 ">
                             <BsFacebook className='w-full h-full text-[#1C314C]' />
                         </a>
-                        <a href="https://www.instagram.com/_sitescript_/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
+                        <a href="https://www.instagram.com/_sitescript_/" target="_blank" rel="noreferrer" className="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <BsInstagram className='w-full h-full text-[#1C314C]' />
                         </a>
-                        <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
+                        <a href="https://twitter.com/_siteScript_" target="_blank" rel="noreferrer" className="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <FaSquareXTwitter className='w-full h-full text-[#1C314C]' />
                         </a>
-                        <a href="https://www.linkedin.com/company/sitescriptitsolution/" target="_blank" rel="noreferrer" class="rounded-full w-6 inline-block mx-1 text-center pt-1">
+                        <a href="https://www.linkedin.com/company/sitescriptitsolution/" target="_blank" rel="noreferrer" className="rounded-full w-6 inline-block mx-1 text-center pt-1">
                             <BsLinkedin className='w-full h-full text-[#1C314C]' />
                         </a>
                     </div>

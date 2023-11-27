@@ -32,7 +32,7 @@ const Navbar = () => {
     const [textcolor, settextcolor] = useState("white");
     const listenScrollEvent = () => {
         window.backgroundColor = "red";
-        window.scrollY > 10 ? setnavColor("#1C314C") : setnavColor("transparent");
+        window.scrollY > 10 ? setnavColor("#0D2232") : setnavColor("transparent");
         // window.scrollY < 0 ? setnavColor("black") : setnavColor("black");
         // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
         window.scrollY > 10 ? settextcolor("white") : settextcolor("white");

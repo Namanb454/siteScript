@@ -4,7 +4,7 @@ function Marketing() {
     return (
         <div className='lg:py-24'>
 
-            <h1 className='pt-10 lg:text-4xl text-2xl text-center font-semibold text-[#1C314C] tracking-wider'>Marketing
+            <h1 className='pt-10 lg:text-4xl text-2xl text-center font-semibold text-[#0D2232] tracking-wider'>Marketing
                 <span className='text-[#b6984b] font-bold'> Strategy</span></h1>
 
             {/* Website Design */}
@@ -16,7 +16,7 @@ function Marketing() {
                     <div class="mt-5 sm:mt-10 lg:mt-0">
                         <div class="space-y-6 sm:space-y-8">
                             <div class="space-y-2 md:space-y-4">
-                                <h2 class="text-2xl font-semibold uppercase text-[#1C314C] lg:text-4xl tracking-wide">
+                                <h2 class="text-2xl font-semibold uppercase text-[#0D2232] lg:text-4xl tracking-wide">
                                     Boost customer retention with an <span className='font-bold text-[#b6984b] tracking-wide'>optimized website</span>
                                 </h2>
                                 <p class="text-gray-500">
@@ -71,8 +71,8 @@ function Marketing() {
                 <div
                     class="max-w-lg bg-white md:max-w-2xl md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 ">
                     <div class="flex flex-col p-12 md:px-16 px-5">
-                        <h2 class="text-2xl font-semibold uppercase text-[#1C314C] lg:text-4xl tracking-wide">Paid <span className='font-bold text-[#b6984b] tracking-wide'>Advertising</span></h2>
-                        <p class="mt-4 tracking-wide text-[#1C314CB2] font-semibold">
+                        <h2 class="text-2xl font-semibold uppercase text-[#0D2232] lg:text-4xl tracking-wide">Paid <span className='font-bold text-[#b6984b] tracking-wide'>Advertising</span></h2>
+                        <p class="mt-4 tracking-wide text-[#0D2232B2] font-semibold">
                             With paid advertising, businesses can easily track and measure the success of their campaigns through various analytics tools, allowing them to make data-driven decisions and optimize their marketing strategies.
                         </p>
                         <div class="flex w-fit mt-8">
@@ -92,7 +92,7 @@ function Marketing() {
                     <div class="mt-5 sm:mt-10 lg:mt-0">
                         <div class="space-y-6 sm:space-y-8 ">
                             <div class="space-y-2 md:space-y-4">
-                                <h2 class="text-2xl font-semibold uppercase text-[#1C314C] lg:text-4xl tracking-wide">
+                                <h2 class="text-2xl font-semibold uppercase text-[#0D2232] lg:text-4xl tracking-wide">
                                     Video <span className='font-bold text-[#b6984b] tracking-wide'>Advertising</span>
                                 </h2>
                                 <p class="text-gray-500">
@@ -140,7 +140,7 @@ function Marketing() {
 
 
             {/* Social Media Marketing */}
-            <div class=" px-5 lg:py-24 py-10 sm:px-6 lg:px-8 mx-auto bg-[#1C314C]">
+            <div class=" px-5 lg:py-24 py-10 sm:px-6 lg:px-8 mx-auto bg-[#0D2232]">
                 <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
                     <h2 class="text-2xl lg:text-4xl text-white font-semibold tracking-wide">
                         Social Media <span className='font-bold text-[#b6984b] tracking-wide'>Marketing</span>

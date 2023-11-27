@@ -20,13 +20,14 @@ const GridComponent = () => {
         { imageUrl: 'features/bootstrap.png', heading: 'Bootstrap' },
         { imageUrl: 'features/tailwind.png', heading: 'Tailwind CSS' },
         { imageUrl: 'features/cleancode.png', heading: 'Clean Code' },
-        { imageUrl: 'features/customize.png', heading: 'Easy To Customize' },
         { imageUrl: 'features/googlefont.png', heading: 'Google Font' },
+        { imageUrl: 'features/customize.png', heading: 'Easy To Customize' },
         { imageUrl: 'features/fontawesomepro.png', heading: 'Font Awesome Pro' },
         { imageUrl: 'features/responsive.png', heading: 'Responsive Layout' },
         { imageUrl: 'features/oneclickdemo.png', heading: 'One Click Demo' },
         { imageUrl: 'features/speedoptimized.png', heading: 'Speed Optimized' },
         { imageUrl: 'features/unlimitedcolor.png', heading: 'Unlimited Color Option' },
+        { imageUrl: 'features/googleads.png', heading: 'Google Ads' },
     ];
 
     const Style1 = {
@@ -59,18 +60,28 @@ const GridComponent = () => {
             <div className='text-white'>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
-                        <div className="flex flex-wrap -m-4">
+                        {/* <div className="flex flex-wrap -m-4">
                             {boxData.map(data => {
                                 return (
-                                    <div className="lg:w-1/4 md:w-1/2 p-5 w-1/2 ">
+                                    <div className="lg:w-1/6 md:w-1/2 p-5 w-1/2 ">
                                         <div style={boxStyle} className='lg:mx-5 py-5 rounded-xl shadow-md shadow-slate-300'>
                                             <a className="  block relative lg:w-[30%] w-[40%] rounded mx-auto overflow-hidden ">
                                                 <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={data.imageUrl} />
                                             </a>
                                             <div className='w-fit mx-auto text-center'>
-                                                <h3 className='font-semibold text-[#1C314C]'>{data.heading}</h3>
+                                                <h3 className='font-semibold text-[#0D2232]'>{data.heading}</h3>
                                             </div>
                                         </div>
+                                    </div>
+                                )
+                            })}
+                        </div> */}
+                        <div className="grid lg:grid-cols-12 grid-cols-6 gap-y-5  items-center gap-x-5 sm:gap-x-6 lg:gap-x-8">
+                            {boxData.map(data => {
+                                return (
+                                    <div className=" col-span-2 md:col-span-2 items-center justify-center">
+                                        <img className="rounded-3xl w-[40%] mx-auto" src={data.imageUrl} alt="Twitter" />
+                                        <h2 className='lg:block hidden text-center lg:text-base font-semibold'>{data.heading}</h2>
                                     </div>
                                 )
                             })}
