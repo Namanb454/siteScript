@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../Feature.css';
+import gsap from 'gsap';
 
 const GridComponent = () => {
     const boxStyle = {
@@ -50,11 +51,19 @@ const GridComponent = () => {
         paddingTop: '1rem',
     };
 
+    // GSAP 
+    useEffect(() => {
+        const tl = gsap.timeline();
+        tl.from(".title", { x: 200, duration: 2 });
+        tl.from(".title2", { x: -200, duration: 2 });
+
+    })
+
 
     return (
         <div>
-            <h1 className='lg:text-2xl text-lg text-[#b6984b] tracking-wider' style={Style1}>AWESOME FEATURES</h1>
-            <h2 className='lg:text-3xl text-xl font-extrabold text-black tracking-widest' style={Style2}>
+            <h1 className='lg:text-2xl text-lg text-[#b6984b] tracking-wider title' id='title' style={Style1}>AWESOME FEATURES</h1>
+            <h2 className='lg:text-3xl text-xl font-extrabold text-black tracking-widest title2' id='title2' style={Style2}>
                 Enjoy Our Exclusive Features And a Wide Range of Websites.
             </h2>
             <div className='text-white'>
