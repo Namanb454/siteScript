@@ -96,9 +96,9 @@ function Contact() {
         <div className='lg:py-24 py-60'>
             <div className="flex justify-center items-center w-screen mx-auto h-screen bg-cover py-24">
                 <div className="container mx-auto my-4 lg:px-20">
-                    <h1 className="w-fit my-10 font-semibold mx-auto lg:text-4xl text-base text-[#0D2232] tracking-wider">
-                        <span>Your Questions Are Important To Us,</span>
-                        <br />Don't Hesitate To<span className='font-bold text-[#b6984b]'> Get In Touch. </span></h1>
+                    <h1 className="w-fit my-10 font-semibold mx-auto lg:text-4xl text-base text-[#0D2232] tracking-wider text-center">
+                        <span>Ready To Grow Your Business And</span>
+                        <br />Online Presence?<span className='font-bold text-[#b6984b]'> Contact Us </span></h1>
 
                     <form method='POST' className="w-full py-8 px-4 my-4 md:px-12 lg:w-9/12 lg:pl-10 lg:pr-40 mr-auto bg-cover rounded-xl shadow-2xl">
                         <div className="flex">

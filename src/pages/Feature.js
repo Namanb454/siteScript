@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../Feature.css';
-import gsap from 'gsap';
+// import gsap from 'gsap';
 
 const GridComponent = () => {
     const boxStyle = {
@@ -52,12 +52,12 @@ const GridComponent = () => {
     };
 
     // GSAP 
-    useEffect(() => {
-        const tl = gsap.timeline();
-        tl.from(".title", { x: 200, duration: 1 });
-        tl.from(".title2", { x: -200, duration: 1 });
+    // useEffect(() => {
+    // const tl = gsap.timeline();
+    // tl.to(".title", { x: 200, duration: 1, scale: 0.5});
+    // tl.to(".title2", { x: -200, duration: 1, scale: 2 });
 
-    })
+    // })
 
 
     return (

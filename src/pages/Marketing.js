@@ -4,11 +4,12 @@ function Marketing() {
     return (
         <div className='lg:py-24'>
 
-            <h1 className='pt-10 lg:text-4xl text-2xl text-center font-semibold text-[#0D2232] tracking-wider'>Marketing
+            <h1 className='lg:pt-0 pt-20 pb-5 lg:text-4xl text-2xl text-center font-semibold text-[#0D2232] tracking-wider'>Marketing
                 <span className='text-[#b6984b] font-bold'> Strategy</span></h1>
+            <p className='text-center lg:text-xl text-sm text-gray-500 tracking-widest font-semibold'>Enhancing business reach through website creation and social media marketing</p>
 
             {/* Website Design */}
-            <div class=" px-4 lg:py-24 py-10 sm:px-6 lg:px-8 mx-auto">
+            <div class=" px-4 py-10 sm:px-6 lg:px-8 mx-auto">
                 <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
                     <div>
                         <img class="rounded-xl" src="responsivedesign.jpg" alt="Optimize Website" />
@@ -20,7 +21,7 @@ function Marketing() {
                                     Boost customer retention with an <span className='font-bold text-[#b6984b] tracking-wide'>optimized website</span>
                                 </h2>
                                 <p class="text-gray-500">
-                                    An engaging website is vital for customer retention. It offers easy navigation, relevant content, and responsive service. Optimizing it creates a lasting impact, promotes interaction, and delivers a consistent user experience. Customizing user journeys and streamlining conversion paths cultivates loyalty and promotes recurring transactions.
+                                    An engaging website is vital for customer retention. It offers easy navigation, relevant content, and responsive service. Optimizing it creates a lasting impact, promotes interaction, and delivers a consistent user experience. Our team of skilled web designers will bring your vision to life by creating a visually appealing and functional website. With a focus on user experience, we'll ensure your website is intuitive, easy to navigate, and optimized for various devices.
                                 </p>
                             </div>
                             <ul role="list" class="space-y-2 sm:space-y-4">
@@ -30,7 +31,7 @@ function Marketing() {
                                     </span>
 
                                     <span class="text-sm sm:text-base text-gray-500">
-                                        <span class="font-bold">Easy & fast</span> designing
+                                        <span class="font-bold">Customized website design </span> tailored to your brand identity.
                                     </span>
                                 </li>
 
@@ -40,7 +41,7 @@ function Marketing() {
                                     </span>
 
                                     <span class="text-sm sm:text-base text-gray-500">
-                                        Powerful <span class="font-bold">features</span>
+                                        User-friendly interface with  <span class="font-bold">intuitive navigation.</span>
                                     </span>
                                 </li>
 
@@ -50,7 +51,9 @@ function Marketing() {
                                     </span>
 
                                     <span class="text-sm sm:text-base text-gray-500">
-                                        User Experience <span class="font-bold">Design</span>
+                                        <span class="font-bold">
+                                            SEO </span>
+                                        to improve your website's visibility on search engines.
                                     </span>
                                 </li>
                             </ul>
@@ -64,7 +67,7 @@ function Marketing() {
 
 
             {/* Paid Advertising */}
-            <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl lg:py-24 py-10 lg:pt-0 ">
+            <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl lg:py-24 py-20 lg:pt-0 ">
                 <div class="w-full h-64 lg:w-1/2 lg:h-auto">
                     <img class="h-full w-full object-cover" src="paidadvertising.jpg" />
                 </div>
@@ -140,14 +143,13 @@ function Marketing() {
 
 
             {/* Social Media Marketing */}
-            <div class=" px-5 lg:py-24 py-10 sm:px-6 lg:px-8 mx-auto bg-[#0D2232]">
+            <div class=" px-5 lg:py-24 py-24 sm:px-6 lg:px-8 mx-auto bg-[#0D2232]">
                 <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
-                    <h2 class="text-2xl lg:text-4xl text-white font-semibold tracking-wide">
+                    <h2 class="pb-5 text-2xl lg:text-4xl text-white font-semibold tracking-wide">
                         Social Media <span className='font-bold text-[#b6984b] tracking-wide'>Marketing</span>
                     </h2>
-                    <p class="mt-3 text-gray-300 tracking-widest">
-                        The powerful and flexible theme for all kinds of businesses.
-                    </p>
+                    <p className='text-center lg:text-xl text-sm text-gray-300 tracking-widest font-semibold'>The powerful and flexible theme for all kinds of businesses.</p>
+
                 </div>
 
                 <div class="mx-auto grid grid-cols-9 gap-6 lg:gap-8 tracking-widest">
@@ -193,8 +195,8 @@ function Marketing() {
                     </div>
                 </div>
 
-                <p className='text-white/80 text-base mt-10 font-semibold text-justify'>
-                    Social media marketing uses engaging content on platforms like Facebook, Instagram, Twitter, and LinkedIn to promote products, services, or brands. It boosts brand awareness, drives website traffic, and achieves business objectives. Key tasks include content creation, community management, advertising, and performance analysis.
+                <p className='text-white/80 text-base mt-10 font-semibold lg:text-center text-justify'>
+                    Capitalizing on the power of social media, our marketing experts will create and manage effective campaigns tailored to your business goals.
                 </p>
             </div>
         </div>

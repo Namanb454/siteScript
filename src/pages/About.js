@@ -1,6 +1,9 @@
 import React from 'react'
+import ReadMoreButton from '../components/ReadMoreButton'
+// import ReadMoreButton from './ReadMoreButton';
 
 function About() {
+    const longText = "At sitescript, we are a leading website making agency and social media marketing agency dedicated to helping local businesses and professional organizations establish a strong online presence. We understand the importance of an engaging and visually appealing website, as well as effective social media strategies, to attract customers and drive success in the digital age. With our team of expert web designers and copywriters, we specialize in creating optimized, high-converting landing pages that are tailored to your unique business needs and goals. We'll work closely with you to understand your vision and translate it into a stunning online platform that reflects your brand identity and captivates your target audience."
 
     const card = [
         {
@@ -27,20 +30,20 @@ function About() {
 
     const whychoose = [
         {
-            'heading': 'Expertise That Matters:',
-            'desc': 'Our team consists of experienced professionals who possess extensive knowledge in IT solutions as well as Social Media Marketing. With a focus on innovative technological solutions and the ability to create influential social media strategies, we offer a level of expertise that distinguishes us from others.'
+            'heading': 'Expertise and Experience:',
+            'desc': 'With years of experience in the industry, we possess the knowledge and skills necessary to deliver exceptional web design and social media marketing services. Our team stays up-to-date with the latest trends and technologies to ensure your online presence remains relevant and competitive.'
         },
         {
-            'heading': 'Client-Centric Approach:',
-            'desc': "Our primary focus is on our clients, as they are the core of our operations. We take great pride in our client-centric strategy, which emphasizes transparent processes, open communication, and a collaborative partnership. Our ultimate goal is to prioritize your satisfaction and success."
+            'heading': 'Tailored Solutions:',
+            'desc': "We understand that every business is unique. That's why our approach is fully customized to fit your specific goals and requirements. We take the time to understand your business, target audience, and objectives, allowing us to create a website and social media strategy that speaks directly to your customers and delivers results."
         },
         {
-            'heading': 'Cutting-Edge Technology and Trends:',
-            'desc': "In the fast-evolving digital landscape, staying ahead is non-negotiable. Our commitment to innovation means that you benefit from the latest technologies and trends in both IT and social media marketing. Your business deserves nothing less than state-of-the-art solutions."
+            'heading': 'Results-Driven Approach:',
+            'desc': "At sitescript, we are committed to helping our clients achieve tangible results. Whether it's increased website traffic, higher conversion rates, or improved brand visibility, we prioritize measurable outcomes and continuously optimize our strategies to ensure your success."
         },
         {
-            'heading': 'Reliability:',
-            'desc': 'We value the importance of technology in your operations. Therefore, we prioritize reliable and consistent services. Rest assured, our solutions work seamlessly every day.'
+            'heading': 'Excellent Customer Support:',
+            'desc': 'We believe in establishing strong relationships with our clients and providing exceptional customer support. Our team is dedicated to addressing your questions, concerns, and requests promptly, ensuring a smooth and enjoyable experience throughout the entire process.'
         },
         {
             'heading': 'Competitive Pricing and Value:',
@@ -62,10 +65,11 @@ function About() {
                         <h1 className="title-font sm:text-4xl text-2xl mb-4 font-bold text-[#0D2232] tracking-wider">Who We Are?
 
                         </h1>
-                        <p className="mb-8 leading-relaxed text-[#0D2232B2] font-semibold text-justify tracking-wide">Our company specializes in designing, developing, and delivering reliable IT & Digital Solutions that empower businesses to  achieve uninterrupted growth and success.We are committed to providing top-notch services that meet the unique needs of our clients  and help them stay ahead of the competition. At siteScript, we don't just solve problems; we anticipate them and pave the way for your uninterrupted growth and success. </p>
-                        <div className="flex w-full justify-center">
-                            <button className="mx-auto inline-flex text-white bg-[#b6984b] border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-[#b6984b] text-sm font-semibold shadow-sm shadow-gray-500 transition-all">Read More</button>
-                        </div>
+                        <p className="mb-8 leading-relaxed text-[#0D2232B2] font-semibold text-justify tracking-wide">
+                            {/* <ReadMoreButton text={longText} maxChars={200} /> */}
+                            <ReadMoreButton text={longText} maxChars={373} />
+                        </p>
+
                     </div>
                 </div>
             </section>

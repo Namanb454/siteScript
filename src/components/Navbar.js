@@ -125,7 +125,8 @@ const Navbar = () => {
                                 ref={menuRef}
                             >
                                 <div className=" space-y-7 py-[2%] transition-all mx-5 sm:px-3" ref={menuRef}>
-                                    <div className="w-fit flex items-center">
+                                    <div className="w-fit flex items-center" onClick={() => setIsNavOpen(false)}
+                                    >
                                         <img className="lg:w-20 w-[15%]" src="sitescriptlogo.jpg" alt="Logo" />
                                         <div className=''>
                                             <h2 className='lg:text-4xl text-[#1C314C] mx-1 text-xl font-serif'>site<span className='text-[#b6984b]'>Script</span></h2>
@@ -136,7 +137,9 @@ const Navbar = () => {
                                     {navbar.map(data => {
                                         return (
 
-                                            <a key={data.id}
+                                            <a
+                                                onClick={() => setIsNavOpen(false)}
+                                                key={data.id}
                                                 href={data.link}
                                                 className="text-[#1C314C] hover:text-[#b6984b] w-[50%] tracking-wide transition-all block px-3 py-2 rounded-md text-base"
                                             >
